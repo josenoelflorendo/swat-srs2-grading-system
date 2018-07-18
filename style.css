@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	height: 60px;
+
+}
+
+.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+
+}
+
+.logo{
+	height: 48px;
+	padding: 2px 10px;
+
+}
+
+.navbar-style h4{
+	color: #003366;
+	margin-left: 60px; 
+	margin-top: -33px;
+
+}
+
+.icon-bar{
+
+	background: darkorange;
+
+}
+
+
+#showcase{
+	min-height: 1000px;
+	background: url('uni2.jpg') no-repeat center top fixed; /*linear-gradient(rgba(0,0,0,0.5));*/
+	background-size: cover;
+	text-align: center; 
+
+}
+
+#showcase h1{
+	margin-top: 200px;
+	font-size: 55px;
+	font-weight: bold;
+	font-style: arial;
+	color: #003366;
+	text-shadow: 1px 1px darkorange;
+}
+
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+    background: #F5F5F5;
+}
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 5px solid #bbbbbb; 
+    border-radius: 15px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 1px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #800000;
+}
+
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 70%;
+    text-align: center;
+}
